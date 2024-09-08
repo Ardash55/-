@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спортивный зал Медведь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="aroundGym">
+            <p class="gym">Спортивный зал</p>
+        </div>
+
+        <p class="bear">МЕДВЕДЬ</p>
+    </div>
+    <div class="aboutOfGym">
+        <div class='divStringAboutOfGym'>
+            <p class="stringAboutOfGym">
+                Медведь - полноценный спортивный комплекс, предоставляющий следующие услуги:
+            </p>
+        </div>
+        <div class="manyAboutOfGym">
+            <div onclick="topArrow1()" id="firstAboutCard" class="divAboutCard">
+                <div class="divNameOfTraning">
+                    <p class="nameOfTraning">
+                        Тренажерный зал
+                    </p>
+                </div>
+
+                <img id="downArrow1" class="downArrow" src="Group 1.png">
+
+            </div>
+
+            <div class="traningOff" id="strongTraing">
+                <div class="imaginDiv">
+                    <img class="traningStrongImg" src="traning strog.png">
+                </div>
+
+                <p class="aboutStrongGym">
+                    Тренажерный зал включат в себя комплекс тренажеров и спортивных
+                    снарядов для совершенствования собственного тела
+                </p>
+
+                <p class="typesOfSubscription">
+                    Тренажерный зал Медведь имеет несколько видов абониментов
+                </p>
+
+                <div class="secondTypes">
+                    <div id="firstSubscriotionStrong" class="secondTypeOfSubscribtion"
+                        onclick="basicStrongTraningDisplay()">Тренажерный зал безлимит</div>
+
+                    <div id="secondSubscribtionStrong" class="secondTypeOfSubscribtion" onclick="familyStrongDisplay()">
+                        Семейный абонимент <br> от двух
+                        человек</div>
+
+                    <div id="thirdSubscribtionStrong" class="secondTypeOfSubscribtion"
+                        onclick="teenagerStrongDisplay()">Подростковый абонимент <br> от 12 до 16 лет</div>
+
+                    <div id="fourthSubscribtionStrong" class="secondTypeOfSubscribtion"
+                        onclick="trener8StrongDisplay()">Тренажерный зал с тренером <br> 8 занятий</div>
+
+                    <div id="fifthSubscribtionStrong" class="secondTypeOfSubscribtion"
+                        onclick="trener12StrongDisplay()">Тренажерныйи зал с тренером <br> 12 занятий</div>
+                </div>
+
+                <div class="basicStrongTraning" id="basicStrongTraning">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2900 рублей</div>
+                        </div>
+                    </div>
+
+                    <div class='firstLine'>
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">6 месяцев</div>
+
+                            <div class="priceOfSubscription">13000 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">12 месяцев</div>
+
+                            <div class="priceOfSubscription">22000 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="familyStrong" id="familyStrong">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2600 рублей <br> с человека</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teenagerStrong" id="teenagerStrong">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2100 рублей</div>
+                        </div>
+                    </div>
+                    <div class="firstLine">
+                        <div class="nameOfSubscription">6 месяцев</div>
+
+                        <div class="priceOfSubscription">3600 рублей</div>
+                    </div>
+                </div>
+
+                <div class="trener8" id="trener8">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">3600 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trener12" id="trener12">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">700 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">4600 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div onclick="topArrow2()" class="divAboutCard">
+                <div class="divNameOfTraning">
+                    <p class="nameOfTraning">
+                        Бокс
+                    </p>
+                </div>
+
+                <img id="downArrow2" class="downArrow" src="Group 1.png">
+            </div>
+
+            <div class="traningOff" id="boxTraning">
+                <div class="imaginDiv">
+                    <img class="traningStrongImg" src="box.jpeg">
+                </div>
+
+                <p class="aboutStrongGym">
+                    Тренируйтесь с нами: бокс для силы, скорости и уверенности!
+                </p>
+
+                <div class="timeForBoxingDiv">
+                    <div class="secondTimeBoxingDiv">
+                        <p class="choiseTime">
+                            Выберите наиболее удобное время тренировки:
+                        </p>
+
+                        <div class="timeForBoxing">
+                            <div class="daysForBoxing">
+                                Понедельник &ndash; Суббота: &nbsp;
+                            </div>
+                            <div class="onlyTimeForBoxing">
+                                <p class="oclockForBoxing"> 8:00-10:00 / 16:00-18:00 / 18:00-20:00 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="typesOfSubscription">
+                    Секция бокса имеет несколько видов абониментов
+                </p>
+
+                <div class="secondTypes">
+                    <div id="firstSubscriotionBox" onclick="adultBoxinDisplay()" class="secondTypeOfSubscribtion">
+                        Взрослый абонимент</div>
+
+                    <div id="secondSubscriotionBox" onclick="childBoxingDisplay()" class="secondTypeOfSubscribtion">
+                        Детский абонимент</div>
+
+                    <div id="thirdSubscriotionBox" onclick="trenerBoxing8Display()" class="secondTypeOfSubscribtion">
+                        Индивидуально с тренером <br> 8 занятий</div>
+
+                    <div id="fourthSubscribtionBox" onclick="trenerBoxing12Display()" class="secondTypeOfSubscribtion">
+                        Индивидуально с тренером <br> 12 занятий</div>
+                </div>
+
+                <div id="adultBoxin">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2800 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="childBoxing">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2500 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="trenerBoxing8">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">3700 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="trenerBoxing12">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">5000 рублей</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="topArrow3()" class="divAboutCard">
+                <div class="divNameOfTraning">
+                    <p class="nameOfTraning">
+                        Кикбоксинг
+                    </p>
+                </div>
+
+                <img id="downArrow3" class="downArrow" src="Group 1.png">
+            </div>
+
+            <div class="traningOff" id="kickboxTraning">
+
+                <div class="imaginDiv">
+                    <img class="traningStrongImg" src="kickboxing.jpg">
+                </div>
+
+                <p class="aboutStrongGym">
+                    Кикбоксинг: путь к физической форме и ментальной стойкости!
+                </p>
+
+                <div class="timeForBoxingDiv">
+                    <div class="secondTimeBoxingDiv">
+                        <p class="choiseTime">
+                            Выберите наиболее удобное время тренировки:
+                        </p>
+                        <div class="onTimeForMeeting">
+                            <div class="timeForMeeting">
+                                <div id="timeForKickboxing" class="timeForBoxing">
+                                    <div class="daysForBoxing">
+                                        Понедельник, Среда, Пятница: &nbsp;
+                                    </div>
+
+                                    <div class="onlyTimeForBoxing">
+                                        <p class="oclockForBoxing"> 18:30-20:30</p>
+                                    </div>
+                                </div>
+
+                                <div id="timeForKickboxing" class="timeForBoxing">
+                                    <div class="daysForBoxing">
+                                        Вторник, Четверг: &nbsp;
+                                    </div>
+
+                                    <div class="onlyTimeForBoxing">
+                                        <p class="oclockForBoxing"> 19:00-20:30</p>
+                                    </div>
+                                </div>
+
+                                <div id="timeForKickboxing" class="timeForBoxing">
+                                    <div class="daysForBoxing">
+                                        Суббота: &nbsp;
+                                    </div>
+
+                                    <div class="onlyTimeForBoxing">
+                                        <p class="oclockForBoxing"> 9:00-10:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="typesOfSubscription">
+                    Секция кикбоксинга имеет несколько видов абониментов
+                </p>
+
+                <div id="kickboxingAboniment" class="firstLineKick">
+                    <div id="firstSubscriotionKickbox" onclick="standartKickboxingDisplay()"
+                        class="thirdTypeOfSubscribtion">
+                        Обычный абонимент
+                    </div>
+
+                    <div id="secondSubscriotionKickbox" onclick="familyKickboxingDisplay()"
+                        class="thirdTypeOfSubscribtion">
+                        Семейный абонимент
+                    </div>
+                </div>
+
+                <div id="standartKickboxing">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2800 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="familyKickboxing">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2500 рублей <br> с человека </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="topArrow4()" class="divAboutCard">
+                <div class="divNameOfTraning">
+                    <p class="nameOfTraning">
+                        Танцы
+                    </p>
+                </div>
+
+                <img id="downArrow4" class="downArrow" src="Group 1.png">
+            </div>
+
+            <div class="traningOff" id="danceTraning">
+
+                <div class="imaginDiv">
+                    <img class="traningStrongImg" src="dance.jpg">
+                </div>
+
+                <p class="aboutStrongGym">
+                    Танец — язык, понятный всем народам
+                </p>
+
+                <div class="timeForBoxingDiv">
+                    <div class="secondTimeBoxingDiv">
+                        <p class="choiseTime">
+                            Выберите наиболее удобное время тренировки:
+                        </p>
+
+                        <div>
+                            <div class="daysForBoxing">Вторник, Четверг:</div>
+
+                            <div>
+                                <div class="oclockForBoxing">16:00-17:00 &ndash; Фланкировка</div>
+                                <div class="oclockForBoxing">17:00-18:00 &ndash; Основная группа</div>
+                                <div class="oclockForBoxing">18:00-19:00 &ndash; Подготовительная группа</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="typesOfSubscription">
+                    Секция танцев имеет несколько видов абониментов
+                </p>
+
+                <div id="danceAboniment" class="firstLine">
+                    <div id="firstSubscriotionDance" onclick="flankeerDisplay()" class="fourthTypeOfSubscribtion">
+                        Фланкировка
+                    </div>
+
+                    <div id="secondSubscriotionDance" onclick="danceTopGroupDisplay()" class="fourthTypeOfSubscribtion">
+                        Основная группа
+                    </div>
+
+                    <div id="thirdSubscriotionDance" onclick="danceDownGroupDisplay() "
+                        class="fourthTypeOfSubscribtion">
+                        Подготовительная группа
+                    </div>
+                </div>
+
+                <div id="flankeer">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2800 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="danceTopGroup">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2800 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="danceDownGroup">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2600 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div onclick="topArrow5()" class="divAboutCard">
+                <div class="divNameOfTraning">
+                    <p class="nameOfTraning">
+                        Групповой фитнес
+                    </p>
+                </div>
+
+                <img id="downArrow5" class="downArrow" src="Group 1.png">
+            </div>
+
+            <div class="traningOff" id="fitnesTraning">
+
+                <div class="imaginDiv">
+                    <img class="traningStrongImg" src="fitnesGroup.jpg">
+                </div>
+
+                <p class="aboutStrongGym">
+                    Групповой фитнес: твой путь к здоровью и гармонии
+                </p>
+
+                <div class="timeForBoxingDiv">
+                    <div class="secondTimeBoxingDiv">
+                        <p class="choiseTime">
+                            Выберите наиболее удобное время тренировки:
+                        </p>
+
+                        <div class="timeForBoxing">
+                            <div class="daysForBoxing">
+                                Понедельник, Среда, Пятница: &nbsp;
+                            </div>
+                            <div class="onlyTimeForBoxing">
+                                <p class="oclockForBoxing">19:00-20:00 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="typesOfSubscription">
+                    Групповой фитнес имеет несколько видов абониментов
+                </p>
+
+                <div id="fitnesAboniment" class="firstLine">
+                    <div id="firstSubscriotionFitnes" onclick="fitnes12Display()" class="thirdTypeOfSubscribtion">
+                        12 занятий <br> 3 раза в неделю
+                    </div>
+
+                    <div id="secondSubscriotionFitnes" onclick="fitnes8Display()" class="thirdTypeOfSubscribtion">
+                        8 занятий <br> 2 раза в неделю
+                    </div>
+                </div>
+
+                <div id="fitnes12">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">3000 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="fitnes8">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2600 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div onclick="topArrow6()" class="divAboutCard">
+                <div class="divNameOfTraning">
+                    <p class="nameOfTraning">
+                        Фитнес аэробика
+                    </p>
+                </div>
+
+                <img id="downArrow6" class="downArrow" src="Group 1.png">
+            </div>
+
+
+            <div class="traningOff" id="aerobicTranig">
+                <div class="imaginDiv">
+                    <img class="traningStrongImg" src="aerobic.jpg">
+                </div>
+
+                <p class="aboutStrongGym">
+                    Каждое занятие – шаг к совершенной версии себя
+                </p>
+
+                <div class="timeForBoxingDiv">
+                    <div class="secondTimeBoxingDiv">
+                        <p class="choiseTime">
+                            Выберите наиболее удобное время тренировки:
+                        </p>
+
+                        <div class="timeForBoxing">
+                            <div class="daysForBoxing">
+                                Понедельник, Среда, Пятница: &nbsp;
+                            </div>
+                            <div class="onlyTimeForBoxing">
+                                <p class="oclockForBoxing">18:00-19:00 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="typesOfSubscription">
+                    Аэробика имеет несколько видов абониментов
+                </p>
+
+                <div id="aerobicAboniment" class="firstLine">
+                    <div id="firstSubscriotionAerobic" onclick="aerobic12Display()" class="thirdTypeOfSubscribtion">
+                        12 занятий <br> 3 раза в неделю
+                    </div>
+
+                    <div id="secondSubscriotionAerobic" onclick="aerobic8Display()" class="thirdTypeOfSubscribtion">
+                        8 занятий <br> 2 раза в неделю
+                    </div>
+                </div>
+
+                <div id="aerobic12">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">3000 рублей</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="aerobic8">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2600 рублей</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div onclick="topArrow7()" class="divAboutCard">
+                <div class="divNameOfTraning">
+                    <p class="nameOfTraning">
+                        Восточные танцы
+                    </p>
+                </div>
+
+                <img id="downArrow7" class="downArrow" src="Group 1.png">
+            </div>
+
+            <div class="traningOff" id="eastDanceTraning">
+                <div class="imaginDiv">
+                    <img class="traningStrongImg" src="eastDance.jpg">
+                </div>
+
+                <p class="aboutStrongGym">
+                    Каждый шаг — это история, каждый танец — искусство!
+                </p>
+
+                <div class="timeForBoxingDiv">
+                    <div class="secondTimeBoxingDiv">
+                        <p class="choiseTime">
+                            Выберите наиболее удобное время тренировки:
+                        </p>
+
+                        <div class="timeForBoxing">
+                            <div class="daysForBoxing">
+                                Вторник, Четверг &nbsp;
+                            </div>
+                            <div class="onlyTimeForBoxing">
+                                <p class="oclockForBoxing">18:00-19:00 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="typesOfSubscription">
+                    Секция восточных танцев имеет следующий абонимент
+                </p>
+
+                <div class="firstLine">
+                    <div id="firstSubscriotionEastDance" onclick="eastDanceDisplay() " class="fourthTypeOfSubscribtion">
+                        8 занятий <br> 2 раза в неделю
+                    </div>
+                </div>
+
+                <div id="eastDance">
+                    <div class="firstLine">
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">Разовое посещение</div>
+
+                            <div class="priceOfSubscription">600 рублей</div>
+                        </div>
+
+                        <div class="oneTimeVisit">
+                            <div class="nameOfSubscription">1 месяц</div>
+
+                            <div class="priceOfSubscription">2500 рублей</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="timeOfWork">Время работы:</div>
+
+        <div class="allDays">
+            <div class="dayOfWork"> Понедельник-Пятница: 9:00-21:00</div>
+
+            <div class="dayOfWork"> Суббота: 9:00-15:00</div>
+
+            <div class="dayOfWork">Воскресенье: Выходной</div>
+        </div>
+
+        <div class="admin">Администратор: +7 (918) 007 77 89</div>
+
+        <div class="adress">Апшеронск, Комсомольская 129А</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

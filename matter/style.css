@@ -1,0 +1,692 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.head {
+    height: 1150px;
+    background-image: url('SHAPKA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.gym {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.aroundGym {
+    padding-top: 700px;
+    padding-bottom: 0;
+}
+
+.bear {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.divStringAboutOfGym {
+    padding-top: 30px;
+}
+
+.stringAboutOfGym {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divAboutCard {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.imgDiv {
+    position: relative;
+}
+
+.downArrow {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 27px;
+    bottom: 27px;
+    right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.topArrow {
+    transform: rotate(180deg);
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#strongTraing {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#boxTraning {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#kickboxTraning {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#danceTraning {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#fitnesTraning {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#aerobicTranig {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#eastDanceTraning {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.traningOff {
+    max-height: 0;
+    transition: max-height 0.5s ease;
+}
+
+.traningOn {
+    max-height: 1800px;
+    transition: max-height 0.5s ease;
+}
+
+.nameOfTraning {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+html,
+body {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.traningStrongImg {
+    width: 80%;
+    text-align: center;
+}
+
+.imaginDiv {
+    text-align: center;
+}
+
+.aboutStrongGym {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 28px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.typesOfSubscription {
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.secondTypeOfSubscribtion {
+    background-color: rgb(62, 62, 239);
+    color: white;
+    min-width: 420px;
+    width: 420px;
+    height: 120px;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    transition: 0.3s;
+}
+
+.secondTypeOfSubscribtion:hover {
+    background-color: rgb(29, 29, 224);
+}
+
+.secondTypeOfSubscribtion:target {
+    background-color: black;
+}
+
+.secondTypes {
+    display: flex;
+    overflow-x: auto;
+}
+
+.nameOfSubscription {
+    background-color: orange;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.oneTimeVisit {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.secondArrow {
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.priceOfSubscription {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+    width: 300px;
+    height: 55px;
+    border-style: solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.firstLineKick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+}
+
+.secondLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+}
+
+.notDisplay {
+    display: none;
+}
+
+.haveADisplay {
+    display: block;
+}
+
+.basicStrongTraning {
+    transition: 0.3s;
+}
+
+.choiseTime {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.timeForBoxing {
+    display: flex;
+}
+
+.onlyTimeForBoxing {
+    position: relative;
+}
+
+.oclockForBoxing {
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.daysForBoxing {
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.timeForBoxingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adultGroup {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.thirdTypeOfSubscribtion {
+    background-color: rgb(62, 62, 239);
+    color: white;
+    min-width: 420px;
+    width: 420px;
+    height: 120px;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    display: flex;
+    transition: 0.3s;
+}
+
+.thirdTypeOfSubscribtion:hover {
+    background-color: rgb(29, 29, 224);
+}
+
+.allSubscribes {
+    padding: 0;
+    margin: 0;
+}
+
+.fourthTypeOfSubscribtion {
+    background-color: rgb(62, 62, 239);
+    color: white;
+    min-width: 420px;
+    width: 420px;
+    height: 120px;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    transition: 0.3s;
+}
+
+.fourthTypeOfSubscribtion:hover {
+    background-color: rgb(29, 29, 224);
+}
+
+.timeOfWork {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+.dayOfWork {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.allDays {
+    margin-top: 30px;
+}
+
+.admin {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+.adress {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+@media(max-width: 420px) {
+    .head {
+        height: 600px;
+        background-image: url('SHAPKA.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    }
+
+    .gym {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .aroundGym {
+        padding-top: 370px;
+        padding-bottom: 0;
+    }
+
+    .bear {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 60px;
+        margin-top: 20px;
+        margin-top: 0;
+    }
+
+    .divStringAboutOfGym {
+        padding-top: 30px;
+    }
+
+    .stringAboutOfGym {
+        font-family: sans-serif;
+        font-size: 28px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nameOfTraning {
+        font-family: sans-serif;
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    .downArrow {
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        top: 27px;
+        bottom: 27px;
+        right: 20px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .topArrow {
+        transform: rotate(180deg);
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        top: 27px;
+        right: 20px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+    .aboutStrongGym {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 24px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .typesOfSubscription {
+        font-family: sans-serif;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .secondTypeOfSubscribtion {
+        background-color: rgb(62, 62, 239);
+        color: white;
+        min-width: 220px;
+        width: 420px;
+        height: 80px;
+        font-family: sans-serif;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        display: flex;
+        transition: 0.3s;
+    }
+
+    .nameOfSubscription {
+        background-color: orange;
+        font-family: sans-serif;
+        font-size: 20px;
+        color: white;
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        margin-bottom: 5px;
+    }
+
+    .oneTimeVisit {
+        margin-top: 40px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .priceOfSubscription {
+        font-family: sans-serif;
+        font-size: 20px;
+        width: 148px;
+        height: 58px;
+        border-style: solid;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .firstLine {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        gap: 10px;
+    }
+
+    .finalTimeVisit {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        margin-left: 30px;
+        gap: 15px;
+    }
+
+    .timeForBoxing {
+        display: block;
+    }
+
+    .onlyTimeForBoxing {
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    .oclockForBoxing {
+        margin-top: 0;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .timeForKickboxing {
+        margin-bottom: 15px;
+    }
+
+    .choiseTime {
+        margin-bottom: 30px;
+    }
+
+    .thirdTypeOfSubscribtion {
+        background-color: rgb(62, 62, 239);
+        color: white;
+        min-width: 220px;
+        width: 420px;
+        height: 80px;
+        font-family: sans-serif;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        display: flex;
+        transition: 0.3s;
+    }
+
+    .thirdTypeOfSubscribtion:hover {
+        background-color: rgb(29, 29, 224);
+    }
+
+    .firstLineKick {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .fourthTypeOfSubscribtion {
+        background-color: rgb(62, 62, 239);
+        color: white;
+        min-width: 220px;
+        width: 220px;
+        height: 80px;
+        font-family: sans-serif;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        display: flex;
+        transition: 0.3s;
+    }
+
+    .dayOfWork {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .allDays {
+        margin-top: 30px;
+    }
+
+    .admin {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    .adress {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+
+    .timeOfWork {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 70px;
+    }
+}
